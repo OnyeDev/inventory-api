@@ -1,5 +1,8 @@
 from fastapi import FastAPI
-from routes.user import create, read, update, delete
-from routes.data import create, read, update, delete
+from app.routes.data import d_create, d_read, d_update, d_delete
+from app.routes.user import u_create, u_read, u_update, u_delete
 
-app = FastAPI()
+app = FastAPI(
+  title = "Inventory Api",
+  version = "1.0.0.0"
+)
