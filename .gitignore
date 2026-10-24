@@ -1,5 +1,22 @@
+# Environment & Virtualenvs
 .env
-.venv
-*/__pycache__
+.venv/
+venv/
+env/
+
+# Python Cache & Compiled Files
+__pycache__/
 *.pyc
-*.cpy
+*.pyo
+*.pyd
+
+# Local Database Files
+*.db
+*.sqlite
+*.sqlite3
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
